@@ -12,6 +12,7 @@ var bg = "sprites/bg1.png";
 var score = 0;
 
 function preload() {
+    backgroundImg = loadImage(bg);
     getBackgroundImg();
     birdFlying=loadSound("sounds/bird_flying.mp3");
     birdSelect=loadSound("sounds/bird_select.mp3");
